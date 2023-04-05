@@ -1,21 +1,21 @@
 This is [My Blog](http://hackawa.com) 
 
 ## Done
-# UI
+UI
     - Set up a Next js 13 Project
     - Home Page Navbar
     - Hero Section
     - Footer 
-# Logic
+Logic
 
 
 ## To Do
-# UI
+UI
     - Add Components : Links, Icons, Buttons
     - Second Navbar
     - Blog Item Component
     - Course Item Component
-# Logic
+Logic
     - Get Posts From Notion
     - Get Single Post From Notion
     - Get Courses from Notion
