@@ -5,16 +5,16 @@ export const data = {
     socialLinks: [
         {
             plateform: "github",
-            link: "/saad",
+            link: "https://github.com/hackawama",
             icon: <FaGithub size={25} color="lightgray" className="mx-1" />
         },
         {
             plateform: "twitter",
-            link: "/saad",
+            link: "https://twitter.com/isaady2",
             icon: <FaTwitter size={25} color="lightgray" className="mx-1" />
         },
         {
-            plateform: "linkedin",
+            plateform: "https://www.linkedin.com/in/saad-abbou-66555625b/",
             link: "/saad",
             icon: <FaLinkedin size={25} color="lightgray" className="mx-1" />
         }

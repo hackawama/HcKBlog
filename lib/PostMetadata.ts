@@ -7,4 +7,5 @@ export type PostMetadata = {
     category: string
     intention: string
     description: string
+    link: string
 }

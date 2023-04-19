@@ -8,20 +8,25 @@ UI
     - Footer  
     - Add Components : Links, Icons, Buttons    
     - Second Navbar
-    - Blog Item Component
+    - Blog Item Component  
+    -blog/[id]
 Logic
-  - Get Posts From Notion
+  - Get Posts From Notion  
+ - Get Single Post From Notion
 
 ## To Do
 UI
-   
-    -blog/[id]
     - Course Item Component
+    - Projects 
+    -About me 
 Logic
-  
-    - Get Single Post From Notion
     - Get Courses from Notion
     - Get Single Course From Notion
+## Issues
+    - usepathname issue
+    - navbar active link issue
+    -langage issue
+    - fonts issue
 
 First, Edit .env  and the data.tsx file 
 then run the development server:

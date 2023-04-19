@@ -6,6 +6,7 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa"
 import { usePathname } from 'next/navigation';
 import Image from 'next/image'
 import { data } from "@/data";
+
 export default function RootLayout({
   children,
 }: {
@@ -18,7 +19,7 @@ export default function RootLayout({
         {/* TODO : Make it An Array */}
         <Link className="mx-3 text-xl font-bold	" href={"/blog "}>Blog</Link>
         <Link className="mx-3 text-xl font-bold	" href={"/courses "}>Courses</Link>
-        <Link className="mx-3 text-xl font-bold	" href={"/books "}>Books</Link>
+        <Link className="mx-3 text-xl font-bold	" href={"/projects "}>Projects</Link>
         <Link className="mx-3 text-xl font-bold	" href={"/aboutme "}>About me</Link>
       </div></> : <div className="flex justify-center sm:justify-between align-middle px-2 sm:px-8 py-6 flex-wrap">
       <Link href={"/"}>
@@ -31,9 +32,9 @@ export default function RootLayout({
         /></Link>
       <div className=" flex justify-center align-middle flex-wrap">
         {/* TODO : Make it An Array */}
-        <Link className="mx-3 md:mx-6 text-xl font-bold	" href={"/blog "}>Blog</Link>
+        <Link className={pathname !== "/blog" ? "mx-3 md:mx-6 text-xl font-bold	" : "mx-3  md:mx-6 text-xl  text-red-600 font-bold"} href={"/blog "}>Blog</Link>
         <Link className="mx-3 md:mx-6 text-xl font-bold	" href={"/courses "}>Courses</Link>
-        <Link className="mx-3  md:mx-6 text-xl font-bold	" href={"/books "}>Books</Link>
+        <Link className="mx-3  md:mx-6 text-xl font-bold	" href={"/projects "}>Projects</Link>
         <Link className="mx-3  md:mx-6 text-xl font-bold	" href={"/aboutme "}>About me</Link>
 
       </div>
